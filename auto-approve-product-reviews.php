@@ -2,14 +2,14 @@
 /*
 Plugin Name: Auto Approve Product Reviews
 Plugin URI: https://layered.store/plugins/auto-approve-product-reviews
-Description: Auto approve product reviews with a minimum rating chosen by you
-Version: 1.0.0
+Requires Plugins: woocommerce
+Description: Auto-approve WooCommerce product reviews with a minimum rating chosen by you
+Version: 1.1.0
 Author: Layered
 Author URI: https://layered.store
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
-
 
 class LayeredAutoApproveReviews {
 
@@ -88,8 +88,6 @@ class LayeredAutoApproveReviews {
 
 }
 
-
 // Run the plugin
-
 add_action('plugins_loaded', 'LayeredAutoApproveReviews::start');
 register_activation_hook(__FILE__, 'LayeredAutoApproveReviews::onActivation');
