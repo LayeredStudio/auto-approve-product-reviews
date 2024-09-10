@@ -27,5 +27,8 @@ Perfect for any WooCommerce shop/store
 
 == Changelog ==
 
+= 1.1 - 10 Sep 2024 =
+* Improved compatibility with latest WordPress version
+
 = 1.0 - 17 May 2020 =
 * First release. Auto approves WooCommerce product reviews
